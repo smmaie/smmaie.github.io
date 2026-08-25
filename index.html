@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+  <html lang="nl">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sammie Sayers</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+
+<header class="topbar" id="top">
+  <nav class="topbar__nav" id="nav">
+    <a href="#over-mij">01 Over mij</a>
+    <a href="#ervaring">02 Ervaring</a>
+    <a href="#projecten">03 Projecten</a>
+    <a href="#vaardigheden">04 Vaardigheden</a>
+    <a href="#contact">05 Contact</a>
+  </nav>
+  <button class="topbar__toggle" id="navToggle" aria-label="Menu openen" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+
+<section class="hero">
+  <div class="hero__inner">
+     <div class="hero__content">
+    <h1 class="hero__title">
+      <span>SAMMIE</span>
+      <span>SAYERS</span>
+    </h1>
+    <p class="hero__role">Webdeveloper <span class="hero__dot"></span></p>
+    <div class="hero__cta">
+      <a href="#projecten" class="btn btn--solid">Bekijk projecten</a>
+      <a href="#contact" class="btn btn--ghost">Neem contact op</a>
+    </div>
+    </div>
+
+
+  <div class="hero__photo">
+      <img src="assets/sammie.JPEG" onerror="this.parentElement.classList.add('hero__photo--empty')">
+      <div class="hero__slate" aria-hidden="true">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section" id="over-mij">
+  <div class="section__head">
+    <span class="reel">01</span>
+    <h2>Over mij</h2>
+  </div>
+  <div class="about">
+    <p class="about__lead">Een gemotiveerde Junior Webdeveloper uit Tilburg. Na het behalen van mijn MBO 4 diploma in webdevelopment heb ik besloten om toch door te gaan met een HBO deeltijd ICT studie.</p>
+    <p>Buiten het werk kijk ik graag <a href="https://letterboxd.com/ttopaz/" target="_blank" rel="noopener noreferrer" class="project__link">films.</a> Door de dag heen luister ik graag naar mijn favoriete playlists en ben ik ook nog een platenverzameling begonnen. </p>
+    <ul class="about__tags">
+    </ul>
+  </div>
+</section>
+
+
+<section class="section section--dark" id="ervaring">
+  <div class="section__head">
+    <span class="reel">02</span>
+    <h2>Ervaring &amp; opleiding</h2>
+  </div>
+
+  <div class="reelstrip" role="list">
+
+    <article class="reelcard" role="listitem">
+      <div class="reelcard__code">2023-2024</div>
+      <div class="reelcard__body">
+        <h3>Stage Webdeveloper</h3>
+        <p class="reelcard__org">Practoraat Interactieve Technologie</p>
+        <p></p>
+      </div>
+    </article>
+
+
+    <article class="reelcard reelcard--edu" role="listitem">
+      <div class="reelcard__code">2020-2024</div>
+      <div class="reelcard__body">
+        <h3>MBO Webdevelopment</h3>
+        <p class="reelcard__org">Opleiding bij ROC Tilburg</p>
+        <p></p>
+      </div>
+    </article>
+
+    <article class="reelcard reelcard--edu" role="listitem">
+      <div class="reelcard__code">2026 – heden</div>
+      <div class="reelcard__body">
+        <h3>HBO ICT Deeltijd</h3>
+        <p class="reelcard__org">Opleiding bij Avans Breda</p>
+        <p></p>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+
+<section class="section" id="projecten">
+  <div class="section__head">
+    <span class="reel">03</span>
+    <h2>Projecten</h2>
+  </div>
+  <div class="projects">
+    <article class="project">
+      <div class="project__slideshow" data-slideshow>
+        <ul class="project__slides">
+          <li class="project__slide"><img src="assets/projects/reservering1.png"></li>
+          <li class="project__slide"><img src="assets/projects/reservering2.png"></li>
+          <li class="project__slide"><img src="assets/projects/reservering3.png"></li>
+        </ul>
+        <button type="button" class="project__nav project__nav--prev" aria-label="Vorige screenshot">‹</button>
+        <button type="button" class="project__nav project__nav--next" aria-label="Volgende screenshot">›</button>
+        <div class="project__dots"></div>
+      </div>
+      <h3>Stageproject Reserveringsysteem</h3>
+      <p>Het practoraat waar ik stage liep maakte gebruik van allerlei tech-apparatuur dat uitgeleend moest worden aan het team. Om bij te houden wie wat had en hoelang iemand iets leende had ik een Reserveringsysteem gemaakt voor de teamleider van het Practoraat.</p>
+      <div class="project__tags"><span>HTML</span><span>CSS</span><span>JS</span><span>MongoDB</span></div>
+    </article>
+  </div>
+</section>
+
+
+<section class="section section--dark" id="vaardigheden">
+  <div class="section__head">
+    <span class="reel">04</span>
+    <h2>Vaardigheden &amp; taal</h2>
+  </div>
+
+  <div class="skillsgrid">
+    <div class="skillsgrid__col">
+      <h3>Technisch</h3>
+      <ul class="chips">
+        <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Git</li><li>Wordpress</li>
+      </ul>
+    </div>
+    <div class="skillsgrid__col">
+      <h3>Werkhouding</h3>
+      <ul class="chips">
+       <li>Gemotiveerd</li><li>Leergierig</li>
+      </ul>
+    </div>
+    <div class="skillsgrid__col">
+      <h3>Taal</h3>
+      <ul class="chips">
+        <li>Nederlands</li><li>Engels</li><li>Indonesisch</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer class="credits" id="contact">
+  <div class="credits__roll">
+    <h2>Laten we samenwerken</h2>
+    <div class="credits__row"><span>Sammie Sayers</span></div>
+    <div class="credits__row"><a href="tel:+31614552441">+31 6 14552441</a></div>
+    <div class="credits__row"><a href="mailto:sammie.sayers@outlook.com">sammie.sayers@outlook.com</a></div>
+    <p class="credits__end">— EINDE —</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
